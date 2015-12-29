@@ -1,0 +1,16 @@
+storage:
+  dbPath: {{ mongodb_storage_dbpath }}
+  engine: {{ mongodb_storage_engine }}
+  wiredTiger:
+      collectionConfig:
+        blockCompressor: snappy
+
+systemLog:
+  destination: {{ mongodb_systemLog_destination }}
+  path: {{ mongodb_systemLog_path }}
+  logAppend: {{ mongodb_systemLog_logAppend }}
+  timeStampFormat: {{ mongodb_systemLog_timeStampFormat }}
+
+net:
+  bindIp: {{ mongodb_net_bindIp }}
+  port: {{ mongodb_net_port }}

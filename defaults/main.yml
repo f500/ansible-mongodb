@@ -1,0 +1,15 @@
+---
+
+mongodb_state: present
+
+# mongodb.yml
+
+mongodb_storage_dbpath: "/var/lib/mongodb"
+mongodb_storage_engine: "wiredTiger"
+
+mongodb_systemLog_destination: "file"
+mongodb_systemLog_path: "/var/log/mongodb/mongodb.log"
+mongodb_systemLog_logAppend: "true"
+mongodb_systemLog_timeStampFormat: "iso8601-utc"
+mongodb_net_bindIp: "127.0.0.1"
+mongodb_net_port: 27017

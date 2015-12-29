@@ -1,0 +1,17 @@
+---
+
+galaxy_info:
+  author: "Ramon de la Fuente"
+  description: Install and configure MongoDB
+  company: Future500
+  license: LGPLv3
+  min_ansible_version: 1.4
+
+  platforms:
+    - name: Debian
+      versions:
+        - wheezy
+        - jessie
+
+  categories:
+    - "database:nosql"
