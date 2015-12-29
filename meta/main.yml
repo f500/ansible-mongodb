@@ -1,7 +1,7 @@
 ---
 
 galaxy_info:
-  author: "Ramon de la Fuente"
+  author: "Jasper N. Brouwer, Ramon de la Fuente"
   description: Install and configure MongoDB
   company: Future500
   license: LGPLv3

@@ -28,7 +28,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: f500.mongodb, mongdb_bind_ip: "127.0.0.1" }
+         - { role: f500.mongodb, mongodb_bind_ip: "127.0.0.1" }
 
 License
 -------
