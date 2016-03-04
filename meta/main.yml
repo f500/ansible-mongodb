@@ -13,5 +13,7 @@ galaxy_info:
         - wheezy
         - jessie
 
-  categories:
+  galaxy_tags:
     - "database:nosql"
+  
+  dependencies: []
